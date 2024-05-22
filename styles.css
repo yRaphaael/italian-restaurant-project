@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+#header-restaurant-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: white;
+}
+
+#header-restaurant-menu #restaurant-logo {
+    margin-left: 10%;
+}
+
+#header-restaurant-menu #menu-sections {
+    right: 50%;
+    transform: translate(30%);
+}
+
+#header-restaurant-menu #menu-sections a {
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #2b2b2b;
+    position: relative;
+}
+
+#header-restaurant-menu #menu-sections a:hover{
+}
+
+#header-restaurant-menu #menu-sections a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #2b2b2b;
+    transition: all .5s;
+}
+
+#header-restaurant-menu #menu-sections a:hover::before {
+    width: 100%;
+}
+
+
+#header-restaurant-menu #header-button-contact {
+    margin-right: -15%;
+}
+
+#header-restaurant-menu #header-button-contact .contact-us-button {
+    background-color: #2b2b2b;
+    color: white;
+    width: 140px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#header-restaurant-menu #header-button-contact .contact-us-button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#header-restaurant-menu #user-section {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+#header-restaurant-menu #user-section .username-text {
+    cursor: pointer;
+}
+
+#background-menu-image {
+    background-image: url(./assets/home-page-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 540px;
+}
+
+#expeciality-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#title-expeciality {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#expeciality-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+#paragraph-expeciality {
+    width: 580px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer-content {
+  background-color: #2b2b2b;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+  margin: 0;
+}
+
+#footer-contents h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer-social-media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5 rem;
+}
+
+#footer-social-media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer-social-media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#footer-social-media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9882);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: white;
+}
+
+.footer-list .footer-link:hover{
+    color: #7f37c9;
+}
+
+#footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer-subscribe p{
+    color: white;
+}
+
+#input-group {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#input-group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input-group button {
+    background-color: #2d2d2d;
+    border: none;
+    color: white;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+#input-group button:hover {
+    opacity: 0.8s;
+}
+
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #2b2b2b;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    #background-menu-image {
+        background-repeat: no-repeat;
+        background-size: fill;
+        background-position: center center;
+        width: 100%;
+    }
+
+    #title-expeciality {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #expeciality-section {
+        display: flex;
+        width: 100%;
+    }
+
+    #paragraph-expeciality {
+        width: 100%;
+        padding: 50px;
+    }
+
+    #footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    } 
+}
+
+@media screen and (max-width: 426px) {
+    #footer-content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    } 
+}
+
