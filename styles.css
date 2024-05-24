@@ -201,7 +201,7 @@
 }
 
 .navigation-auto div{
-    border: 2px solid #20a6ff;
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -211,7 +211,7 @@
 .navigation-auto {
     position: absolute;
     width: 400px;
-    margin-top: 233px;
+    margin-top: 233.5px;
     display: flex;
     justify-content: center;
 }
@@ -358,6 +358,16 @@ footer {
     font-weight: 100;
     margin: 0;
 }
+
+#background-login-image {
+    background-image: url(./assets/login-register-page-image.png);
+    width: 1160px;
+    height: 100vh; /* Defina a altura do elemento */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 @media screen and (max-width: 768px) {
 
