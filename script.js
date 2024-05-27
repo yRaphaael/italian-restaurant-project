@@ -13,3 +13,8 @@ function nextImage(){
 
     document.getElementById("radio"+count).checked = true;
 }
+
+window.addEventListener("scroll", function(){
+    let header = document.querySelector('#header-restaurant-menu')
+    header.classList.toggle('rolagem', window.scrollY > 0)
+})
