@@ -46,8 +46,6 @@
     position: relative;
 }
 
-#header-restaurant-menu #menu-sections a:hover{
-}
 
 #header-restaurant-menu #menu-sections a::before {
     content: '';
