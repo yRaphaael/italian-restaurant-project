@@ -102,7 +102,7 @@
 }
 
 #background-menu-image {
-    background-image: url(./assets/home-page-image.png);
+    background-image: url(../assets/home-page-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -552,11 +552,12 @@ footer {
     margin-left: 50%;
     margin-top: 10%;
     transform: translate(-50%);
+    cursor: pointer;
 }
 
 .background-login {
     position: absolute;
-    background-image: url(./assets/login-register-page-image.png);
+    background-image: url(../assets/login-register-page-image.png);
     width: 50%;
     height: 100vh;
     background-position: center center;
@@ -621,7 +622,7 @@ footer {
 
 .background-registration {
     position: absolute;
-    background-image: url(./assets/login-register-page-image.png);
+    background-image: url(../assets/login-register-page-image.png);
     width: 50%;
     height: 100vh;
     background-position: center center;

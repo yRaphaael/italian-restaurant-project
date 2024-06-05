@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/register-script.js" defer></script>
     <title>Registration Page</title>
 </head>
 <body>
     <div class="registration-content-container">
         <div class="page-title">
-            <img src="./assets/food-restaurant-icon.png" alt="Restaurant icon">
+            <img src="../assets/food-restaurant-icon.png" alt="Restaurant icon">
             <h1>Create an Account</h1>
         </div>
         <div class="registration-form-content">
@@ -18,25 +18,25 @@
                 <h2 class="name-title-registration">
                     Name
                 </h2>
-                <input type="text" class="name-input-registration" placeholder="Your Name">
+                <input type="text" id="name-input" class="name-input-registration" placeholder="Your Name">
             </div>
 
             <div class="email-form-registration">
                 <h2 class="email-title-registration">
                     E-mail
                 </h2>
-                <input type="email" class="email-input-registration" placeholder="you@domain.com">
+                <input type="email" id="email-input" class="email-input-registration" placeholder="you@domain.com">
             </div>
 
             <div class="password-form-registration">
                 <h2 class="password-title-registration">
                     Password
                 </h2>
-                <input type="password" class="password-input-registration" placeholder="Your Password">    
+                <input type="password" id="password-input" class="password-input-registration" placeholder="Your Password">    
             </div>
             
             
-            <button class="register-btn">
+            <button class="register-btn" id="register-btn">
                 Register
             </button>
             <div class="login-text-section">
